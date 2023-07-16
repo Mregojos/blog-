@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Matt
+
+nav:
+    - index.md
+    - Blog:
+        - Blog/blog.md
+    - Project:
+        - Project/project.md
+
+theme: material
