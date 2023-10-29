@@ -1,1 +1,27 @@
 site_name: Matt Cloud Tech
+
+nav:
+    - index.md
+    - Project:
+        - Project/project_1.md
+    - Blog:
+        - Blog/blog_1.md
+
+theme: 
+    name: material
+    palette:
+        scheme: slate
+        primary: black
+        accent: blue
+    font: 
+        text:
+            Roboto
+    icon:
+        logo: octicons/cloud-16
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        - navigation.expand
+        - toc.follow
+        - navigation.top
